@@ -1,0 +1,17 @@
+external-secret.yaml
+
+apiVersion: external-secret.io/v1beta1
+kind: ExternalSecret
+metadata:
+  name: postgresql # secret name
+spec:
+  refreshInterval: 1m
+  secretStoreRef:     # refernce info. of secrets which are available in aws 
+    kind: ClusterSecretStore # refering this values
+    name: aws # name of provider
+  target:     #which secret needs to be created and what should be the name 
+    name: postgresql  # related to target
+    creationPolicy: Owner
+  dataFrom:  # what to fetch from aws and what is name 
+    - extract:
+        key:  # name of secret which is present in aws
