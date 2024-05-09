@@ -8,11 +8,11 @@ f =20-30'''
 
 if (grade >= 90):
     print("you are in group A")
-elif (grade > 70 and grade <=80):
+elif (grade >= 70 and grade <80):
     print("you are in group B")
-elif (grade >60 and grade <=70):
+elif (grade >=60 and grade <70):
     print ("you are in group C")
-elif (grade <70 and grade >=50):
+elif (grade <=70 and grade >50):
     print("you are in group D")
 else:
     print("you are in group F. Repeat exam")
