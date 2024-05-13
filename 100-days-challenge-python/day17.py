@@ -42,14 +42,34 @@
 
 #count no of vowels in given string
 
-note = "I am in the right place, at the right time, doing the right thing."
-vowels = ('a','e','i','o','u','A','E','I','O','U')
+# note = "I am in the right place, at the right time, doing the right thing."
+# vowels = ('a','e','i','o','u','A','E','I','O','U')
 
-for char in note:
-    if char in vowels:
-        print(f"'{char}'it is vowel")
-    else:
-        print(f"'{char}'It is constant")
+# for char in note:
+#     if char in vowels:
+#         print(f"'{char}'it is vowel")
+#     else:
+#         print(f"'{char}'It is constant")
+
+#check the max value in list
+
+# num_list =[1,4,5,8,34,98,100,234,76,500,900,988,1]
+
+# max_num = num_list[0]
+
+
+# for i in num_list:
+#     if i > max_num:
+#         max_num = i
+# print (f"this is max no. all amongs: {max_num} ")
+
+# Print the pattern in order value
+
+star = "*"
+for i in range(1,7):
+    print(star * i)
+
+
 
 
 
