@@ -65,12 +65,18 @@
 
 # Print the pattern in order value
 
-star = "*"
-for i in range(1,7):
-    print(star * i)
+# star = "*"
+# for i in range(1,7):
+#     print(star * i) # * this is mothing but multiplication don't miss interpret it as a variable *
 
+#sum of even no. using for loop 
 
+sum_num = 0
 
+for i in range (1,51):
+    if i % 2 == 0:
+        sum_num += i
+print("The sum of even number in range 1-51 is: ",sum_num)
 
 
 
