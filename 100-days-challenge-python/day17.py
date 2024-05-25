@@ -71,12 +71,21 @@
 
 #sum of even no. using for loop 
 
-sum_num = 0
+# sum_num = 0
 
-for i in range (1,51):
-    if i % 2 == 0:
-        sum_num += i
-print("The sum of even number in range 1-51 is: ",sum_num)
+# for i in range (0,101):
+#      if i % 2 == 0:
+#         sum_num += i
+# print("The sum of even number in range 1-51 is: ",sum_num)
+
+
+#Addition of 1 to 100
+sum = 0
+
+for i in range(1,100):
+    sum +=i
+print(sum)
+
 
 
 

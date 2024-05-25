@@ -40,3 +40,33 @@
 
 # b = 6
 # iseven(b)
+
+
+#find the maximum of 3 numbers
+
+# def max_of_three(a,b,c):
+#     return max(a,b,c)
+
+# print(max_of_three(1,7,9))
+# print(max_of_three(-9,-4,-1))
+
+#Write factorial 
+
+
+# def facto(a):
+#     factorial = 1
+#     if a > 0:
+#         for i in  range(1, a + 1):
+#             factorial*= i
+#         return factorial
+#     else:
+#         return 1
+#         # print (f"The factorial {a} is : Factorial")
+# print (facto(5))
+
+# reversed string
+
+def reverse_string(s):
+    return s[::-1]
+
+print (reverse_string("Hello"))
