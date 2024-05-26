@@ -66,7 +66,33 @@
 
 # reversed string
 
-def reverse_string(s):
-    return s[::-1]
+# def reverse_string(s):
+#     return s[::-1]
 
-print (reverse_string("Hello"))
+# print (reverse_string("Hello"))
+
+
+# addition of 2 numbers function
+# def add(a,b):
+#     c=a+b
+#     print(c)
+
+# add(34,7)
+
+# def is_palindrome(s):
+#     return s == s[::-1]
+
+# print(is_palindrome("racecar"))
+# print(is_palindrome("hello"))
+
+#function for calculating  Fibonacci number
+
+def Fibonacci(n):
+    sequence = [0,1]
+    for i in range(2,n):
+        sequence.append(sequence[-1]+ sequence[-2])
+    return sequence[:n]
+
+print(Fibonacci(5))
+print(Fibonacci(10))
+print(Fibonacci(2))
