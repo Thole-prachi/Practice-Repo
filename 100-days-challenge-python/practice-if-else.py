@@ -102,14 +102,17 @@
 # wishing code depend on time
 import time
 timestamp = time.strftime("%H:%M:%S")
-print (timestamp)
-timestamp = int(time.strftime('%H'))
-print (timestamp)
+# print (timestamp)
+hour = int(time.strftime('%H'))
+hour = int(input("Enter time : "))
+print (hour)
 
-if timestamp < 12:
+if (hour>0 and hour<12):
     print("Hello, Good Morning")
-elif time >= 12 > 16:
+elif (hour>12 and hour<16):
     print("Hello, Good Afternoon")
-else:
+elif (hour>=16 and hour<21):
     print("Hello Good Evening")
+else:
+    print("Hello Good Night")
 
