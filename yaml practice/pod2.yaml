@@ -1,0 +1,18 @@
+#created pod using configmap1 file
+
+apiVersion: v1
+kind: pod
+metadata:
+  name: nginx-pod-config
+spec:
+  contaniners:
+    - name: nginx
+      image: nginx-1.14.2
+      volumeMounts:
+        - name: congif-volume
+          mountPath: /etc/nginx/nginx.conf
+          subPath: nginx.conf
+  volumes:
+    - name: config-volume
+      configMAp:
+        name: nginx-config
