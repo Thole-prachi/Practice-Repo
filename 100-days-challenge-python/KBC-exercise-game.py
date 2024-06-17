@@ -46,5 +46,7 @@ else:
     print(f"you lose the game with {score}. Better luck next time!")
 
 
+##exercise completed
+
 
     
