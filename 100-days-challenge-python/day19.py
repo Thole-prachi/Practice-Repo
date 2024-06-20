@@ -1,3 +1,7 @@
+#What is break and continue : break means once condition got satisfied it break the loops or we can say come  out of loop and for continue
+#if continue condition got true it skip that particular part like if you don't want to print vatule 7 then add it in continue statement
+#once it reach till 7 it check condition skip printing of 7 print the next number in list program run continue in this state.
+
 # break and continue practice with while and for loop 
 # print the number which come first and it it divisible by 5 from below list
 

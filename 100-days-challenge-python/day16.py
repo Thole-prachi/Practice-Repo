@@ -43,9 +43,9 @@
 #     case _:
 #         print("Print valida number")
 
-#Match case state ment example to print if it is vowel , constant or neither working
+#Match case state ment example to print if it is vowel | constant or neither working
 
-# character = input("Please enter any character between A-Z, a-z : ")
+# character = input("Please enter any character between A-Z| a-z : ")
 
 # match character.lower():
 #     case 'a':
@@ -62,13 +62,13 @@
 #         print("neither")
 
 
-#Chantgpt code not working
-# character = input("Please enter any character between A-Z, a-z: ")
 
-# match character.lower():
-#     case 'a', 'e', 'i', 'o', 'u':
-#         print("Vowel")
-#     case 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z':
-#         print("Consonant")
-#     case _:
-#         print("Neither")
+character = input("Please enter any character between A-Z  a-z: ")
+
+match character.lower():
+    case 'a'| 'e'| 'i'| 'o'| 'u':
+        print("Vowel")
+    case 'b'| 'c'| 'd'| 'f'| 'g'| 'h'| 'j'| 'k'| 'l'| 'm'| 'n'| 'p'| 'q'| 'r'| 's'| 't'| 'v'| 'w'| 'x'| 'y'| 'z':
+        print("Consonant")
+    case _:
+        print("Neither")
