@@ -29,12 +29,11 @@
 
 user_input = ""
 
-while user_input.lower() != "exit":
+while user_input != "exit":
     user_input = input("Enter your name (or type 'exit' to stop): ")
-
-    if user_input.lower() == 'exit':
+    user_input_captalize = user_input.capitalize() # so to convert user input 1st alphabet in uppercase u have to create new variable where you call username variable.
+    if user_input == 'exit':
         print("Exiting the loop , GoodBye!")
     else:
-        print(f"Hello {user_input}!")
-
+        print(f"Hello {user_input_captalize}!")
 
