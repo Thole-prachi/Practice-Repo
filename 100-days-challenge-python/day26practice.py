@@ -35,5 +35,5 @@ while user_input != "exit":
     if user_input == 'exit':
         print("Exiting the loop , GoodBye!")
     else:
-        print(f"Hello {user_input_captalize}!")
+        print(f"Hello {user_input}!")
 
